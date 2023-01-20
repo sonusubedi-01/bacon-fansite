@@ -1,8 +1,26 @@
-h1{
-    color: red;
+h1 {
+    color: rgb(12, 12, 188);
     font-style: italic;
-    font-size: 50px;
+    font-size: 100px;
 }
+
+/*Hover pseudo class. Written as :hover */
+img:hover {
+    background-color: yellow;
+
+}
+
+/* without creating a class in image:
 img{
    background-color:rgb(226, 183, 43);
+}
+*/
+
+/*creating class in image and then changing background color of image by using class name */
+.bacon {
+    background-color: rgb(0, 255, 115);
+}
+
+.broccoli {
+    background-color: red;
 }
